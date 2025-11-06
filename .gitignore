@@ -1,0 +1,4 @@
+outputs/
+sqlmap_output-*/
+*.log
+*.tmp
