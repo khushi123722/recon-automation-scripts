@@ -1,20 +1,3 @@
-# Recon Automation Scripts — Khushi Mistry
-
-> **Solo project** — Automation scripts for Vulnerability Assessment (Recon phase)
-
----
-
-## Project summary
-
-Bash-based toolkit to automate reconnaissance tasks during VAPT engagements. It orchestrates multiple open-source tools to discover subdomains, check liveliness, enumerate endpoints/parameters, discover directories, attempt 403 bypasses, detect subdomain takeover candidates, and scan for XSS/SQLi — then aggregates findings into concise output reports.
-
-**Repo name suggestion:** `recon-automation-scripts` (solo)
-
----
-
-## Polished README.md
-
-````
 # Recon Automation Scripts
 
 **Owner:** Khushi Mistry
@@ -86,7 +69,6 @@ Inspired by community recon workflows and public automation scripts. Tools used 
 
 ````
 
----
 
 ## Improved `recon_automation.sh` (CLI flags + graceful fallbacks)
 
@@ -294,33 +276,5 @@ echo "Files created:"
 ls -1
 
 exit 0
-````
 
----
 
-## .gitignore (suggested)
-
-```
-outputs/
-sqlmap_output-*/
-*.log
-*.tmp
-```
-
----
-
-## LICENSE
-
-MIT by default — add your name and year in the file.
-
----
-
-## Next steps I prepared for you
-
-1. Git push steps & example commit messages (see chat message accompanying this canvas file).
-2. A short resume bullet and repo tagline (see chat message).
-3. If you want, I can also produce a zipped repo structure you can download (tell me and I will create files locally and give commands).
-
----
-
-*This canvas contains a polished README and a CLI-friendly script that gracefully skips missing tools and provides light-mode.*
