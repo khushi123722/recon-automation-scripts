@@ -6,7 +6,7 @@ This project automates reconnaissance for web security testing using Bash.
 It chains multiple open-source tools to discover subdomains, endpoints, and parameters,  
 then quickly checks for potential XSS, SQLi, 403 bypass, and takeover vulnerabilities.
 
-## 🔍 TL;DR
+
 Automates recon & vulnerability discovery with:
 - Subdomain enumeration (amass, subfinder, findomain)
 - Live host check (httpx)
